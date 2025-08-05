@@ -74,7 +74,7 @@ cd termichat-macos  # or termichat-linux
 ./termichat-server --port 8000
 
 # In another terminal, connect a client
-./termichat-client --port 8000 --user-id alice
+./termichat-client --port 8000
 ```
 
 #### **Windows:**
@@ -86,7 +86,7 @@ cd termichat-macos  # or termichat-linux
 termichat-server.exe --port 8000
 
 # In another Command Prompt, connect a client
-termichat-client.exe --port 8000 --user-id alice
+termichat-client.exe --port 8000 
 ```
 
 ### **Secure TLS Connection**
@@ -98,7 +98,7 @@ termichat-client.exe --port 8000 --user-id alice
 ./termichat-server --auto-cert --port 8443
 
 # Connect with TLS
-./termichat-client --tls --insecure --port 8443 --user-id alice
+./termichat-client --tls --insecure --port 8443 
 ```
 
 ## 💬 Chat Commands
