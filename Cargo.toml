@@ -1,0 +1,39 @@
+[package]
+name = "termichat"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[[bin]]
+name = "generate-certs"
+path = "src/bin/generate_certs.rs"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4"] }
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+# TLS/SSL encryption
+tokio-rustls = "0.24"
+rustls = "0.21"
+rustls-pemfile = "1.0"
+webpki-roots = "0.25"
+# Message encryption
+aes-gcm = "0.10"
+base64 = "0.21"
+# Input validation
+regex = "1.0"
+# Password hashing
+bcrypt = "0.15"
+# Random number generation
+rand = "0.8"
