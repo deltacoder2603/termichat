@@ -57,7 +57,7 @@ const SHARED_ENCRYPTION_KEY: [u8; 32] = [
 ## 🚀 Quick Start
 
 ### **Download Binaries**
-Visit our website at **[termichat.com](https://termichat.com)** to download the latest binaries for your platform:
+Visit our website at **[termichat.com]([https://termichat-website.vercel.app/])** to download the latest binaries for your platform:
 - **macOS**: `termichat-macos.tar.gz`
 - **Linux**: `termichat-linux.tar.gz` 
 - **Windows**: `termichat-windows.zip`
@@ -246,9 +246,7 @@ TermiChat is licensed under the **MIT License** - see [LICENSE](LICENSE) file fo
 
 ## 🤝 Support
 
-- **Documentation**: [docs.termichat.com](https://docs.termichat.com)
-- **Security Issues**: security@termichat.com
-- **General Support**: support@termichat.com
+- **General Support**: srisrikantpandey@gmail.com
 - **GitHub Issues**: [github.com/termichat/termichat/issues](https://github.com/termichat/termichat/issues)
 
 ---
